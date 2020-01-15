@@ -1,2 +1,12 @@
 # SpotiPy-Sklearn
-Using Scikit-Learn to determine the popularity of songs.
+
+Predict popularity with Scikit-learn when given data on 
+Beats.Per.Minute	
+Energy	
+Danceability		
+Liveness	
+Valence.	
+Length.	
+Acousticness..	
+Speechiness.
+
