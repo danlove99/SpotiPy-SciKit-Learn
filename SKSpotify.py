@@ -12,15 +12,11 @@ data = pd.read_csv('top50.csv', encoding = "ISO-8859-1")
 
 X = data.drop(['ID', 'Track.Name', 'Artist.Name', 'Genre', 'Loudness..dB..', 'Popularity'], axis=1)
 y = data['Popularity']
-# print(X.head())
-print(X.shape)
-# print(y.head())
-print(y.shape)
 
 knn = KNeighborsClassifier(n_neighbors=12)
 knn.fit(X, y)
 
-# make a prediction for an example of an out-of-sample observation
+# make a prediction
 knn.predict([[95, 57, 73, 11, 5, 182, 9, 16]])
 
 # With logistic regression
