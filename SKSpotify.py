@@ -1,8 +1,5 @@
 import numpy as np
 import pandas as pd
-
-
-
 from sklearn import metrics
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
